@@ -1,4 +1,6 @@
 # Bruteforce approach [this approach only works if there are no duplicates]
+# Time Complexity: O(nlogn)
+# Space Complexity: O(1)
 def getElements(arr, n):
     if n == 0 or n == 1:
         print(-1, -1)  # edge case when only one element is present in array
@@ -20,6 +22,8 @@ if __name__ == '__main__':
 
 
 # Better Solution 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 def getElements(arr, n):
     if n == 0 or n == 1:
         print(-1, -1)  # edge case when only one element is present in array
@@ -49,6 +53,8 @@ if __name__ == '__main__':
 
 
 # Optimal approach
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 def secondSmallest(arr, n):
     if (n < 2):
         return -1
