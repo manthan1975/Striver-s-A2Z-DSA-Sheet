@@ -10,7 +10,7 @@ def find_union(arr1,arr2,):
     for num in arr2:
         freq[num] = freq.get(num,0) + 1
     
-    for num in freq:
+    for num in freq:            #  ye loop key pr iterate hota hai 
         union.append(num)
 
     return union
@@ -53,7 +53,7 @@ arr2 = [2, 3, 4, 4, 5, 11, 12]
 union = find_union(arr1, arr2)
 
 print("Union of arr1 and arr2 is:")
-print(*union, end=' ')
+print(*union, end=' ')                # (*) List ko unpack krta hai 
 print()
 
 
@@ -67,7 +67,7 @@ def find_union(arr1,arr2):
 
     while (i < len(arr1) and  j < len(arr2)):
         if arr1[i] <= arr2[j]:
-            if len(union) == 0 or union[-1] != arr1[i]:
+            if len(union) == 0 or union[-1] != arr1[i]:   # This lines means union ki last hai or agar union ka last elem arr1[i] k first k equal nikle to skip
                 union.append(arr1[i])
             i += 1
 
