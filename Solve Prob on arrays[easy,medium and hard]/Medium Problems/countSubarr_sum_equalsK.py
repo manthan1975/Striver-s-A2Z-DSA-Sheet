@@ -1,6 +1,6 @@
 # Bruteforce approach
-#Time Complexity: O(n^2)
-#Space Complexity: O(1)
+# Time Complexity: O(n^2)
+# Space Complexity: O(1)
 
 def countSubarraySum(arr, k):
     n = len(arr)
