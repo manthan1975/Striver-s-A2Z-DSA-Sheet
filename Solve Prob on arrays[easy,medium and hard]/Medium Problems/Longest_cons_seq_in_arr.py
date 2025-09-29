@@ -64,8 +64,8 @@ if __name__ == "__main__":
 
 
 # Optimal approach
-# Time Complexity: 
-# Space Complexity: 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 
 def consSeq(arr):
     n = len(arr)
