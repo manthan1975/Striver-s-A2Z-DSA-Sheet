@@ -1,4 +1,6 @@
 #Using for loop
+# Time Complexity: O(N)
+# Space Complexity: O(1)
 
 # n = 5
 # sum = 0
@@ -8,6 +10,8 @@
 # print(sum)
 
 # Using the formula
+# Time Complexity: O(1)
+# Space Complexity: O(1)
 
 # sum = int(input("Enter number: "))
 
@@ -17,6 +21,8 @@
 
 # Using Recursion
 # Parameterised way
+# Time Complexity: O(N)
+# Space Complexity: O(N)
 
 def func(i,sum):
     if(i<1):
@@ -30,6 +36,9 @@ func(n,0)
 
 
 # Functional way
+# Time Complexity: O(N)
+# Space Complexity: O(N)
+
 # def sum(n):
 #     if(n == 0):
 #         return 0

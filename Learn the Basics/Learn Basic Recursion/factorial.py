@@ -1,4 +1,6 @@
 # Using Iteration
+# Time Complexity: O(N)
+# Space Complexity: O(1)
 
 # n = 3
 # fact = 1
@@ -8,6 +10,8 @@
 
 
 # Using Recursion
+# Time Complexity: O(N)
+# Space Complexity: O(N)
 
 def factorial(n):
     if(n == 0):

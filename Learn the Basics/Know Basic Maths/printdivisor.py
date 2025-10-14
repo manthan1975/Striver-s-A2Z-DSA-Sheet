@@ -10,6 +10,10 @@ def print_divisors(n):
     return divisors
 print_divisors(32)
 
+
+
+# Time Complexity: O(SQRT(n))
+# Space Complexity: O(2 * SQRT(n))
 import math
 
 def print_divisor(n):

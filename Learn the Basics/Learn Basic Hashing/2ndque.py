@@ -1,4 +1,7 @@
 # Usign Loops
+# Time Complexity: O(N*N)
+# Space Complexity: O(N)
+
 def count_frequency(arr):
     n = len(arr)
     visited = [False] * n
@@ -40,6 +43,9 @@ arr = [10, 5, 10, 15, 10, 5]
 count_frequency(arr)
 
 # Using Dictionary
+# Time Complexity: O(N)
+# Space Complexity: O(N)
+
 
 def count_frequency(arr):
     freq = {}

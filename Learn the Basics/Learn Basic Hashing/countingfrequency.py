@@ -1,4 +1,7 @@
 # Using loops
+# Time Complexity: O(N*N)
+# Space Complexity:  O(N)
+
 def count_frequency(arr):
     n = len(arr)
     visited = [False] * n   # boolean array
@@ -21,6 +24,8 @@ arr = [1,2,1,2,3,4]
 count_frequency(arr)
 
 # Using map
+# Time Complexity: O(N)
+# Space Complexity: O(N)
 
 # def count_frequency(arr):
 #     freq = {}  

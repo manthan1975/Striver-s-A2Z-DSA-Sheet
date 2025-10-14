@@ -1,4 +1,6 @@
 # Using Recursion
+# Time Complexity: O(N)
+# Space Complexity: O(1)
 
 # def ispalindrome(s,i,n):
 #     if(i >= n//2):

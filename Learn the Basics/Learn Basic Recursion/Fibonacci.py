@@ -1,3 +1,6 @@
+# Time Complexity: O(2^n)
+# Space Complexity: O(n)
+
 def fib(n):
     if(n == 0):
         return 0

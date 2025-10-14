@@ -2,6 +2,9 @@
 # HCF : Highest common factor
 
 # Brute force approach
+# Time Complexity: O(min(n1,n2))
+# Space Complexity: O(1)
+
 
 # def find_gcd(n1,n2):
 #     gcd = 1
@@ -13,7 +16,12 @@
 
 # print(find_gcd(9,12))
 
+
+
 # Optimal approach 
+# Time Complexity: O(min(n1,n2))
+# Space Complexity: O(1)
+
 
 def find_gcd(n1,n2):
     while(n1 > 0 and n2 > 0):
@@ -29,7 +37,11 @@ def find_gcd(n1,n2):
 
 print(find_gcd(52,10))
 
+
+
 # Better approach
+# Time Complexity: O(min(n1,n2))
+# Space Complexity: O(1)
 
 # def find_gcd(n1,n2):
 #     gcd = 1

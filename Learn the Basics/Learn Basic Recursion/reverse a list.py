@@ -1,4 +1,7 @@
 # Recursive Method
+# Time Complexity: O(N)
+# Space Complexity: O(1)
+
 def printArray(arr, n):
     print("The reversed array is:- ")
     for i in range(n):
@@ -19,6 +22,8 @@ if __name__ == "__main__":
     printArray(arr, n)
 
 #  Using an extra array.
+# Time Complexity: O(N)
+# Space Complexity: O(N)
 
 def printArray(arr, n):
     print("The reversed array is:- ")
@@ -40,6 +45,8 @@ if __name__ == "__main__":
     reverseArray(arr, n)
 
 # Space-optimized iterative method
+# Time Complexity: O(N)
+# Space Complexity: O(1)
 
 def printarray(arr,n):
     print("The reversed array is: ")
@@ -64,6 +71,8 @@ if __name__ == "__main__":
 
 
 # Using Library function
+# Time Complexity: O(N)
+# Space Complexity: O(1)
 
 def printArray(arr, n):
     print("The reversed array is:- ")

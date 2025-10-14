@@ -1,3 +1,6 @@
+# Time Complexity: O(Logn)
+# Space Complexity: O(1)
+
 n = int(input("Enter a number: "))
 revNum = 0
 duplicate_num = n
